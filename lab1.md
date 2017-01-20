@@ -8,3 +8,25 @@ While I had always known that the RIAA had a history of punishing young adults h
 
 Screenshot of Tree: ![Tree](images/tree.png)
 Finished Regular Expressions Lesson ![regex](images/lab1Reg.png)
+
+Blocky Puzzle:
+~~~
+while (notDone()) {
+  if (isPathRight()) {
+    turnRight();
+  } else {
+    if (isPathLeft()) {
+      turnLeft();
+    }
+  }
+  if (isPathForward()) {
+    moveForward();
+    if (isPathForward()) {
+      moveForward();
+    }
+  } else {
+    turnLeft();
+  }
+}
+~~~
+Picture: ![Blocky](images/lab1Block.png)
