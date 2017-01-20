@@ -30,3 +30,5 @@ while (notDone()) {
 }
 ~~~
 Picture: ![Blocky](images/lab1Block.png)
+
+Types of Projects: Not sure. Strongest in C++/C. Would like it to be applicable to my life and/or interests. 
