@@ -2,4 +2,4 @@
 ### email: maurez@rpi.edu
 ### github account: zrmaurer
 ### slack handle: zrmaurer
-Photo: [ME](images/me.png)
+Photo: ![Zach](images/me.png)
