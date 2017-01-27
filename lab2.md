@@ -19,15 +19,11 @@
 
 Website | License Present | License
 ---------|:----------|:-------
-https://github.com/zwimer/capp-reporter | Yes | GNU GPL
----------|:----------|:-------
-https://github.com/free-of-charge/bms | Yes | MIT
----------|:----------|:-------
-https://github.com/Rlin06/gatekeeper | Yes | MIT
----------|:----------|:-------
-https://github.com/slegec/lms_grabber | Yes | MIT
----------|:----------|:-------
-https://github.com/aeksco/lyrebird | Yes | MIT
+| https://github.com/zwimer/capp-reporter | Yes | GNU GPL |
+| https://github.com/free-of-charge/bms | Yes | MIT |
+| https://github.com/Rlin06/gatekeeper | Yes | MIT |
+| https://github.com/slegec/lms_grabber | Yes | MIT |
+| https://github.com/aeksco/lyrebird | Yes | MIT |
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
