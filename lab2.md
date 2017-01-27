@@ -20,13 +20,13 @@
 Website | License Present | License
 ---------|:----------|:-------
 https://github.com/zwimer/capp-reporter | Yes | GNU GPL
-
+---------|:----------|:-------
 https://github.com/free-of-charge/bms | Yes | MIT
-
+---------|:----------|:-------
 https://github.com/Rlin06/gatekeeper | Yes | MIT
-
+---------|:----------|:-------
 https://github.com/slegec/lms_grabber | Yes | MIT
-
+---------|:----------|:-------
 https://github.com/aeksco/lyrebird | Yes | MIT
 
 
