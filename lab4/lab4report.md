@@ -1,7 +1,7 @@
 STEP 1:
 
 Code:
-<code>
+```
 // A simple program that computes the square root of a number
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,7 +44,7 @@ add_executable(Tutorial tutorial.cxx)
 // the configured options and settings for Tutorial
 #define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
 #define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
-</code>
+```
 
 Results:
 
@@ -58,7 +58,7 @@ cmake ..
 STEP 2:
 
 Code:
-<code>
+```
 #cmakedefine USE_MYMATH
 #define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
 #define Tutorial_VERSION_MINOR @Tutorial_VERSION_MINOR@
@@ -132,7 +132,7 @@ int main (int argc, char *argv[])
   return 0;
 }
 
-</code>
+```
 Results:
 
 
@@ -144,7 +144,7 @@ cmake ..
 STEP 3:
 
 Code:
-<code>
+```
 add_library(MathFunctions mysqrt.cxx)
 install (TARGETS MathFunctions DESTINATION bin)
 install (FILES MathFunctions.h DESTINATION include)
@@ -210,7 +210,7 @@ set_tests_properties (TutorialSmall PROPERTIES PASS_REGULAR_EXPRESSION "0.0001 i
 # does the usage message work?
 add_test (TutorialUsage Tutorial)
 set_tests_properties (TutorialUsage PROPERTIES PASS_REGULAR_EXPRESSION "Usage:.*number")
-</code>
+```
 Results:
 
  cmake ..
@@ -222,7 +222,7 @@ Results:
 STEP 4:
 
 Code:
-<code>
+```
 # does this system provide the log and exp functions?
 include (CheckFunctionExists)
 check_function_exists (log HAVE_LOG)
@@ -232,7 +232,7 @@ check_function_exists (exp HAVE_EXP)
 // does the platform provide exp and log functions?
 #cmakedefine HAVE_LOG
 #cmakedefine HAVE_EXP
-</code>
+```
 
 Results:
 
@@ -245,7 +245,7 @@ cmake ..
 STEP 5:
 
 Code:
-<code>
+```
 // A simple program that builds a sqrt table 
 #include <stdio.h>
 #include <stdlib.h>
@@ -374,7 +374,7 @@ do_test (25 "25 is 5")
 do_test (-25 "-25 is 0")
 do_test (0.0001 "0.0001 is 0.01")
 
-</code>
+```
 Results:
 
 
